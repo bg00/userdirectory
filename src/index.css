@@ -1,13 +1,9 @@
-* {
-  box-sizing: border-box;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-html,
-body,
-#root,
-#root > div,
-div[data-reactroot] {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+code {
+  font-family: monospace;
 }
